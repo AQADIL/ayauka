@@ -1,0 +1,116 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+}
+
+.main {
+  width: 100vw;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.menu {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.treeList {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.treeButton {
+  background: #f5f7fa;
+  border-radius: 18px;
+  padding: 12px 14px;
+  box-shadow: 0 2px 8px rgba(120,130,140,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120px;
+  transition: transform 0.12s;
+}
+.treeButton:hover {
+  transform: scale(1.05);
+  background: #e8f0fe;
+}
+.treeImage {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.levelInfo {
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+
+.treeArea {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tearButton {
+  background: #e3f6e8;
+  color: #1a3a2b;
+  border-radius: 12px;
+  padding: 14px 34px;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 700;
+  box-shadow: 0 1px 4px rgba(60,80,60,0.08);
+}
+.tearButton:hover {
+  background: #c7e7d2;
+}
+.menuButton {
+  background: #e0eafc;
+  color: #2b3a4a;
+  border-radius: 10px;
+  padding: 12px 24px;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.gameOver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.button {
+  background: #c0d3e5;
+  color: #2b3a4a;
+  border-radius: 10px;
+  padding: 12px 24px;
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.button:hover {
+  background: #a5c2d1;
+}
